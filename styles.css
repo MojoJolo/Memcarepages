@@ -172,6 +172,13 @@ p:last-child { margin-bottom: 0; }
   border-color: white;
 }
 
+.book-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-top: 8px;
+}
+
 .btn-buy {
   background: var(--color-accent);
   color: white;
