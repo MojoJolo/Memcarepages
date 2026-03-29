@@ -4,7 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Printable coloring and activity pages designed for memory care and relaxation. Created for seniors, caregivers, and occupational therapists." />
+  <meta name="author" content="MemoryCarePages" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#7c9e6e" />
   <title>MemoryCarePages – Printable Coloring Books for Seniors</title>
+  <link rel="canonical" href="https://memcarepages.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://memcarepages.com/" />
+  <meta property="og:title" content="MemoryCarePages – Printable Coloring Books for Seniors" />
+  <meta property="og:description" content="Printable coloring and activity pages designed for memory care and relaxation. Created for seniors, caregivers, and occupational therapists." />
+  <meta property="og:image" content="https://memcarepages.com/og-image.png" />
+  <meta property="og:site_name" content="MemoryCarePages" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MemoryCarePages – Printable Coloring Books for Seniors" />
+  <meta name="twitter:description" content="Printable coloring and activity pages designed for memory care and relaxation. Created for seniors, caregivers, and occupational therapists." />
+  <meta name="twitter:image" content="https://memcarepages.com/og-image.png" />
+
+  <link rel="preload" href="styles.css" as="style" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -156,6 +176,7 @@
                 <span class="page-count">30 pages</span>
                 <span class="format">Printable PDF</span>
               </div>
+              <div class="book-price">$5.99</div>
               <a href="#" class="btn btn-buy" aria-label="Buy Kitchen Memories Coloring Book on Gumroad">Buy on Gumroad</a>
             </div>
           </article>
@@ -200,6 +221,7 @@
                 <span class="page-count">30 pages</span>
                 <span class="format">Printable PDF</span>
               </div>
+              <div class="book-price">$5.99</div>
               <a href="#" class="btn btn-buy" aria-label="Buy Garden Memories Coloring Book on Gumroad">Buy on Gumroad</a>
             </div>
           </article>
@@ -248,6 +270,7 @@
                 <span class="page-count">30 pages</span>
                 <span class="format">Printable PDF</span>
               </div>
+              <div class="book-price">$5.99</div>
               <a href="#" class="btn btn-buy" aria-label="Buy Animal Friends Coloring Book on Gumroad">Buy on Gumroad</a>
             </div>
           </article>
@@ -355,37 +378,6 @@
       </div>
     </section>
 
-    <!-- ========== TESTIMONIALS ========== -->
-    <section class="testimonials">
-      <div class="container">
-        <div class="section-label">What People Say</div>
-        <h2>Loved by Caregivers</h2>
-        <div class="testimonial-grid">
-          <blockquote class="testimonial-card">
-            <p>"My mother lights up every time I print a new page for her. The designs are perfect — big enough that she can color without getting frustrated."</p>
-            <footer>
-              <strong>Susan M.</strong>
-              <span>Family caregiver, Ohio</span>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial-card">
-            <p>"I use these every week in our activity sessions. Residents really respond to the familiar kitchen and garden themes. Easy to print, easy to use."</p>
-            <footer>
-              <strong>Janet R.</strong>
-              <span>Activity Director, Memory Care Facility</span>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial-card">
-            <p>"As an OT, I'm always looking for calm, meaningful activities. These coloring pages are beautifully simple and my clients genuinely enjoy them."</p>
-            <footer>
-              <strong>David L.</strong>
-              <span>Occupational Therapist</span>
-            </footer>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
     <!-- ========== FINAL CTA ========== -->
     <section class="cta-section">
       <div class="container cta-inner">
@@ -436,5 +428,75 @@
   </footer>
 
   <script src="script.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://memcarepages.com/#organization",
+        "name": "MemoryCarePages",
+        "url": "https://memcarepages.com/",
+        "description": "Printable coloring and activity pages designed for memory care and relaxation. Created for seniors, caregivers, and occupational therapists.",
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://memcarepages.com/#website",
+        "url": "https://memcarepages.com/",
+        "name": "MemoryCarePages",
+        "publisher": { "@id": "https://memcarepages.com/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://memcarepages.com/#webpage",
+        "url": "https://memcarepages.com/",
+        "name": "MemoryCarePages – Printable Coloring Books for Seniors",
+        "description": "Printable coloring and activity pages designed for memory care and relaxation. Created for seniors, caregivers, and occupational therapists.",
+        "isPartOf": { "@id": "https://memcarepages.com/#website" }
+      },
+      {
+        "@type": "Product",
+        "name": "Kitchen Memories Coloring Book",
+        "description": "A printable coloring book featuring familiar kitchen scenes designed for seniors and memory care.",
+        "brand": { "@id": "https://memcarepages.com/#organization" },
+        "url": "https://memcarepages.com/",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Garden Memories Coloring Book",
+        "description": "A printable coloring book featuring calming garden scenes designed for seniors and memory care.",
+        "brand": { "@id": "https://memcarepages.com/#organization" },
+        "url": "https://memcarepages.com/",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Animal Friends Coloring Book",
+        "description": "A printable coloring book featuring friendly animal illustrations designed for seniors and memory care.",
+        "brand": { "@id": "https://memcarepages.com/#organization" },
+        "url": "https://memcarepages.com/",
+        "offers": {
+          "@type": "Offer",
+          "price": "5.99",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    ]
+  }
+  </script>
 </body>
 </html>

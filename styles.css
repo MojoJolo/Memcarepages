@@ -172,6 +172,13 @@ p:last-child { margin-bottom: 0; }
   border-color: white;
 }
 
+.book-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-top: 8px;
+}
+
 .btn-buy {
   background: var(--color-accent);
   color: white;
@@ -573,67 +580,6 @@ p:last-child { margin-bottom: 0; }
   margin: 0;
 }
 
-/* ============================================================
-   TESTIMONIALS
-   ============================================================ */
-.testimonials {
-  padding: var(--space-section) 0;
-}
-
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: 24px;
-  margin-top: 16px;
-}
-
-.testimonial-card {
-  background: white;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-card);
-  padding: 28px;
-  box-shadow: 0 2px 12px var(--color-shadow);
-  position: relative;
-}
-
-.testimonial-card::before {
-  content: '\201C';
-  font-size: 4rem;
-  color: var(--color-primary-light);
-  font-family: Georgia, serif;
-  line-height: 1;
-  position: absolute;
-  top: 12px;
-  left: 20px;
-}
-
-.testimonial-card p {
-  font-style: italic;
-  color: var(--color-text-muted);
-  padding-top: 20px;
-  font-size: 0.97rem;
-}
-
-.testimonial-card footer {
-  margin-top: 18px;
-  padding-top: 14px;
-  border-top: 1px solid var(--color-border);
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.testimonial-card strong {
-  font-family: var(--font-sans);
-  font-size: 0.93rem;
-  color: var(--color-text);
-}
-
-.testimonial-card span {
-  font-family: var(--font-sans);
-  font-size: 0.82rem;
-  color: var(--color-text-light);
-}
 
 /* ============================================================
    CTA SECTION
