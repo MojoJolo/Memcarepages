@@ -201,6 +201,17 @@ p:last-child { margin-bottom: 0; }
   color: white;
 }
 
+.btn-coming-soon {
+  background: #e8e0d8;
+  color: #9a8a7a;
+  flex-shrink: 0;
+  margin-top: 0;
+  cursor: default;
+  pointer-events: none;
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
 /* ============================================================
    HEADER / NAV
    ============================================================ */
